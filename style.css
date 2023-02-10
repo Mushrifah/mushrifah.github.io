@@ -27,20 +27,20 @@
 }
 
 /* spacing on all sections */
-/* #about, #services, #portfolio, #contact {
-    margin-top: 4rem;
-    padding-top: 4rem;
-} */
-#contact {
-    padding-bottom: 4rem;
+#about, #skills, #portfolio, #publications {
+    margin-top: 2rem;
+    padding-top: 2rem;
 }
+/* #contact {
+    padding-bottom: 4rem;
+} */
 /* about section image css */
 .imageAboutPage {
     width: 100%;
 }
 
 /* services section css */
-.servicesText.card {
+/* .servicesText.card {
     height: 280px;
     cursor: pointer;
   }
@@ -49,29 +49,34 @@
     text-align: center;
     width: 100%;
 }
+
+/* .card:hover .servicesIcon {
+    color: #008000;
+} 
+.servicesText:hover {
+    border: 1px solid #008000;
+} */
+
+
 .card-title {
     text-align: center;
 }
-.card:hover .servicesIcon {
-    color: #008000;
-}
-.servicesText:hover {
-    border: 1px solid #008000;
-}
+
 
 /* social media icons styling */
 .social-icons {
     font-size: 36px;
     cursor: pointer;
 }
-.fa-github:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
-    color: #008000;
+.fa-github:hover,.fa-linkedin:hover{
+    color: #07268a;
 }
 .fab {
     color: #000000;
 }
 /* footer styling */
 #footer {
+    margin-top: 20px;
     background-color: #808080;
     text-align: center;
 }
@@ -81,55 +86,84 @@
     color: #000000;
 }
 
+.skill_detail {
+    display: inline;
+}
+
+.skill_detail h5 {
+    /* margin-bottom: 25px; */
+    text-align:center;
+}
+
+.skill_img{
+    width: 64px;
+    height: 64px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+        
+
+    
+}
+
+/* .skill_img {
+    width: 64px;
+    height: 64px;
+    margin-left: 15px;
+    margin-bottom: 25px;
+    padding: 10px;
+} */
 
 
 
-
-
-
+/* 008000 */
 
 /********************************** Technologies **********************************/
 
-#skills {
-    padding-top: 100px;
+/* #skills { */
+    /* padding-top: 100px; */
     /*padding-bottom: 100px;*/
-}
+/* } */
 
-#skill_level {
+/* #skill_level {
     margin-top: 50px;
     margin-bottom: 50px;
-}
+} */
 
 /* .skill_level {
     width: 20px;
     height: 20px;
 } */
 
-.skills {
+/* .skills { */
     /* border: #EEEEEE solid 0.1px; */
     /* border: #262626 solid 0.1px; */
 
-}
+/* } */
 
-.skill_detail {
+
+
+/* .skill_detail {
     display: inline;
-}
+} */
 
-.skill_detail h4 {
+/* .skill_detail h4 {
     margin-bottom: 25px;
-}
+} */
 
-.skill_img {
+/* .skill_img {
     width: 64px;
     height: 64px;
     margin-left: 15px;
     margin-bottom: 25px;
-    /* background: #E0E0E0; */
-    /* background: #262626; */
+     background: #E0E0E0; 
+     background: #262626; 
     padding: 10px;
-}
+} */
 
-.skill_level_img {
+/* .skill_level_img {
     position:absolute;
     bottom: 15px;
     width: 100%;
@@ -144,4 +178,4 @@
 
 .skills p {
     margin-top: 20px;
-}
+} */
