@@ -27,7 +27,7 @@
 }
 
 /* spacing on all sections */
-#about, #skills, #portfolio, #publications {
+#about, #skills, #portfolio, #publications #blogs {
     margin-top: 2rem;
     padding-top: 2rem;
 }
